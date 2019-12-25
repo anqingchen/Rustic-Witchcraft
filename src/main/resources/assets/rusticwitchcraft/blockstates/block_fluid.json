@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "transform": "forge:default-item"
+  },
+  "variants": {
+    "juniper_berry_juice": [{
+      "custom": { "fluid": "juniper_berry_juice" }
+    }],
+    "elderberry_juice": [{
+      "custom": { "fluid": "elderberry_juice" }
+    }],
+    "wormwood_mixture": [{
+      "custom": { "fluid": "wormwood_mixture" }
+    }],
+    "sage_juice": [{
+      "custom": { "fluid": "sage_juice" }
+    }]
+  }
+}

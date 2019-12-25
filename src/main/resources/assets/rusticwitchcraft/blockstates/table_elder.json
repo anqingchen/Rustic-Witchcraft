@@ -1,0 +1,13 @@
+{
+  "multipart": [
+    { "apply": {"model": "rusticwitchcraft:table_elder_top"} },
+    { "when": {"nw": "true"},
+      "apply": {"model": "rusticwitchcraft:table_elder_leg_nw"} },
+    { "when": {"ne": "true"},
+      "apply": {"model": "rusticwitchcraft:table_elder_leg_nw", "y": 90} },
+    { "when": {"se": "true"},
+      "apply": {"model": "rusticwitchcraft:table_elder_leg_nw", "y": 180} },
+    { "when": {"sw": "true"},
+      "apply": {"model": "rusticwitchcraft:table_elder_leg_nw", "y": 270} }
+  ]
+}

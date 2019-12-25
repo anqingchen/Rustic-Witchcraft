@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north":	{ "model": "rusticwitchcraft:chair_dragons_blood" },
+    "facing=east":	{ "model": "rusticwitchcraft:chair_dragons_blood", "y": 90},
+    "facing=south":	{ "model": "rusticwitchcraft:chair_dragons_blood", "y": 180 },
+    "facing=west":	{ "model": "rusticwitchcraft:chair_dragons_blood", "y": 270 }
+  }
+}

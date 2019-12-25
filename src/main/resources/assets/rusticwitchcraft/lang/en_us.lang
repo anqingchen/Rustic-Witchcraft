@@ -1,0 +1,24 @@
+tile.rustic.chair_cypress=Cypress Chair
+tile.rustic.chair_dragons_blood=Dragon's Blood Chair
+tile.rustic.chair_elder=Elder Chair
+tile.rustic.chair_juniper=Juniper Chair
+tile.rustic.table_cypress=Cypress Table
+tile.rustic.table_dragons_blood=Dragon's Blood Table
+tile.rustic.table_elder=Elder Table
+tile.rustic.table_juniper=Juniper Table
+
+tile.rusticwitchcraft.juniper_berry_juice.name=Juniper Spirit
+tile.rusticwitchcraft.elderberry_juice.name=Elderberry Juice
+tile.rusticwitchcraft.wormwood_mixture.name=Wormwood Mixture
+tile.rusticwitchcraft.sage_juice.name=Sage Juice
+
+fluid.juniper_berry_juice=Juniper Spirit
+fluid.elderberry_juice=Elderberry Juice
+fluid.wormwood_mixture=Wormwood Mixture
+fluid.sage_juice=Sage Juice
+fluid.gin=Gin
+fluid.elderberry_wine=Elderberry Wine
+fluid.absinthe=Absinthe
+fluid.sage_liqueur=Sage Liqueur
+
+

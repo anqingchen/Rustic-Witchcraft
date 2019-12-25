@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rusticwitchcraft",
+  "name": "Rustic Witchcraft",
+  "description": "Provides extra decorations and alcohol compatibility between Bewitchment and Rustic",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Samaritans", "Cybercat5555"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["bewitchment", "rustic"]
+}
+]
