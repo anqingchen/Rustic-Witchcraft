@@ -32,7 +32,7 @@ public class ModEventHandler {
     @SubscribeEvent
     public static void handlePotion(LivingEvent.LivingUpdateEvent event) {
         EntityLivingBase entityLivingBase = event.getEntityLiving();
-        if (entityLivingBase.isPotionActive(ModPotions.NATURES_AURA) && entityLivingBase.ticksExisted % 120 == 0) {
+        if (entityLivingBase.isPotionActive(ModPotions.FERTILE_FEET) && entityLivingBase.ticksExisted % 120 == 0) {
             BlockPos pos = entityLivingBase.getPosition();
             World world = entityLivingBase.world;
             BlockPos.getAllInBoxMutable(pos.add(-2, -2, -2), pos.add(2, 2, 2)).forEach(p -> {

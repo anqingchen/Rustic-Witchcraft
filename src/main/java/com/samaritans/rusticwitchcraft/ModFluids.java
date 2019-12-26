@@ -128,7 +128,7 @@ public class ModFluids {
                     float saturation = 2.0F * quality;
                     player.getFoodStats().addStats(1, saturation);
                     int durationx = (int)(12000.0F * Math.max(Math.abs((quality - 0.5F) * 2.0F), 0.0F));
-                    player.addPotionEffect(new PotionEffect(com.samaritans.rusticwitchcraft.ModPotions.NATURES_AURA, durationx));
+                    player.addPotionEffect(new PotionEffect(com.samaritans.rusticwitchcraft.ModPotions.FERTILE_FEET, durationx));
                 } else {
                     int duration = (int)(1200.0F * Math.max(1.0F - quality, 0.0F));
                     player.addPotionEffect(new PotionEffect(MobEffects.POISON, duration));
