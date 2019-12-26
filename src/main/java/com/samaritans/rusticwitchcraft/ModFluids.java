@@ -15,6 +15,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import rustic.common.blocks.fluids.FluidBooze;
 import rustic.common.blocks.fluids.FluidDrinkable;
+import rustic.common.items.ItemFluidBottle;
 
 import javax.annotation.Nonnull;
 import java.util.ArrayList;
@@ -47,7 +48,7 @@ public class ModFluids {
             }
         };
         register(JUNIPER_BERRY_JUICE);
-        ELDERBERRY_JUICE = new FluidDrinkable("elderberry_juice", new ResourceLocation(RusticWitchcraft.MODID, "elderberry_juice_still"), new ResourceLocation(RusticWitchcraft.MODID, "elder_juice_flow")) {
+        ELDERBERRY_JUICE = new FluidDrinkable("elderberry_juice", new ResourceLocation(RusticWitchcraft.MODID, "elderberry_juice_still"), new ResourceLocation(RusticWitchcraft.MODID, "elderberry_juice_flow")) {
             @Override
             public void onDrank(@Nonnull World world, @Nonnull EntityPlayer entityPlayer, @Nonnull ItemStack itemStack, @Nonnull FluidStack fluidStack) {
                 entityPlayer.getFoodStats().addStats(1, 0.9F);
@@ -159,6 +160,7 @@ public class ModFluids {
             FluidRegistry.addBucketForFluid(fluid);
         }
         FLUIDS.add(fluid);
+        ItemFluidBottle.addFluid(fluid);
     }
 
     @SideOnly(Side.CLIENT)

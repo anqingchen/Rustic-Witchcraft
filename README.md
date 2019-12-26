@@ -1,7 +1,7 @@
 # Rustic Witchcraft [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Rustic Witchcraft is a mod aiming to provide compatibility between Bewitchment and Rustic by adding new decorative blocks and functional alcohols.
 
-##Blocks
+## Blocks
 
 - Cypress Chair
 - Dragon's Blood Chair

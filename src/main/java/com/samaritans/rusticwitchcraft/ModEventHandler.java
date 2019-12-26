@@ -36,7 +36,7 @@ public class ModEventHandler {
             BlockPos pos = entityLivingBase.getPosition();
             World world = entityLivingBase.world;
             BlockPos.getAllInBoxMutable(pos.add(-2, -2, -2), pos.add(2, 2, 2)).forEach(p -> {
-                if (world.getBlockState(p).getBlock() instanceof IGrowable && world.rand.nextDouble() < 0.25) {
+                if (world.getBlockState(p).getBlock() instanceof IGrowable && world.rand.nextDouble() < 0.05) {
                     IGrowable growable = ((IGrowable) world.getBlockState(p).getBlock());
                     if (growable.canGrow(world, p, world.getBlockState(p), true)) {
                         growable.grow(world, world.rand, p, world.getBlockState(p));
