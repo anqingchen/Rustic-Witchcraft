@@ -1,11 +1,11 @@
-tile.rustic.chair_cypress=Cypress Chair
-tile.rustic.chair_dragons_blood=Dragon's Blood Chair
-tile.rustic.chair_elder=Elder Chair
-tile.rustic.chair_juniper=Juniper Chair
-tile.rustic.table_cypress=Cypress Table
-tile.rustic.table_dragons_blood=Dragon's Blood Table
-tile.rustic.table_elder=Elder Table
-tile.rustic.table_juniper=Juniper Table
+tile.rustic.chair_cypress.name=Cypress Chair
+tile.rustic.chair_dragons_blood.name=Dragon's Blood Chair
+tile.rustic.chair_elder.name=Elder Chair
+tile.rustic.chair_juniper.name=Juniper Chair
+tile.rustic.table_cypress.name=Cypress Table
+tile.rustic.table_dragons_blood.name=Dragon's Blood Table
+tile.rustic.table_elder.name=Elder Table
+tile.rustic.table_juniper.name=Juniper Table
 
 tile.rusticwitchcraft.juniper_berry_juice.name=Juniper Spirit
 tile.rusticwitchcraft.elderberry_juice.name=Elderberry Juice

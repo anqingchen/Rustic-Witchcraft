@@ -17,23 +17,23 @@ import rustic.common.crafting.Recipes;
 public class ModRecipes {
     public static void init() {
         if (Config.ENABLE_CHAIRS) {
-            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "greatwood_chair"),
+            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "chair_cypress"),
                     new ResourceLocation(RusticWitchcraft.MODID, "chair"), new ItemStack(ModBlocks.CHAIR_CYPRESS, 4), "P  ", "PPP", "S S", 'P', new ItemStack(ModObjects.cypress_planks), 'S', new ItemStack(Items.STICK));
-            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "silverwood_chair"),
+            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "chair_dragons_blood"),
                     new ResourceLocation(RusticWitchcraft.MODID, "chair"), new ItemStack(ModBlocks.CHAIR_DRAGONS_BLOOD, 4), "P  ", "PPP", "S S", 'P', new ItemStack(ModObjects.dragons_blood_planks), 'S', new ItemStack(Items.STICK));
-            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "greatwood_chair"),
+            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "chair_elder"),
                     new ResourceLocation(RusticWitchcraft.MODID, "chair"), new ItemStack(ModBlocks.CHAIR_ELDER, 4), "P  ", "PPP", "S S", 'P', new ItemStack(ModObjects.elder_planks), 'S', new ItemStack(Items.STICK));
-            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "greatwood_chair"),
+            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "chair_juniper"),
                     new ResourceLocation(RusticWitchcraft.MODID, "chair"), new ItemStack(ModBlocks.CHAIR_JUNIPER, 4), "P  ", "PPP", "S S", 'P', new ItemStack(ModObjects.juniper_planks), 'S', new ItemStack(Items.STICK));
         }
         if (Config.ENABLE_TABLES) {
-            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "greatwood_table"),
+            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "table_cypress"),
                     new ResourceLocation(RusticWitchcraft.MODID, "table"), new ItemStack(ModBlocks.TABLE_CYPRESS, 2), "PPP", "S S", 'P', new ItemStack(ModObjects.cypress_planks), 'S', new ItemStack(Items.STICK));
-            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "silverwood_table"),
+            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "table_dragons_blood"),
                     new ResourceLocation(RusticWitchcraft.MODID, "table"), new ItemStack(ModBlocks.TABLE_DRAGONS_BLOOD, 2), "PPP", "S S", 'P', new ItemStack(ModObjects.dragons_blood_planks), 'S', new ItemStack(Items.STICK));
-            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "greatwood_table"),
+            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "table_elder"),
                     new ResourceLocation(RusticWitchcraft.MODID, "table"), new ItemStack(ModBlocks.TABLE_ELDER, 2), "PPP", "S S", 'P', new ItemStack(ModObjects.elder_planks), 'S', new ItemStack(Items.STICK));
-            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "greatwood_table"),
+            GameRegistry.addShapedRecipe(new ResourceLocation(RusticWitchcraft.MODID, "table_juniper"),
                     new ResourceLocation(RusticWitchcraft.MODID, "table"), new ItemStack(ModBlocks.TABLE_JUNIPER, 2), "PPP", "S S", 'P', new ItemStack(ModObjects.juniper_planks), 'S', new ItemStack(Items.STICK));
         }
 

@@ -92,6 +92,6 @@ processResources {
 
 sourceSets {
     main {
-        //output.resourcesDir = output.classesDir
+        output.resourcesDir = output.classesDir
     }
 }
